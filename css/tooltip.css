@@ -1,0 +1,16 @@
+.tooltip {
+    position: absolute;
+    z-index: 110;
+    background-color: #fff;
+    border-color: #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    max-width: calc(100% - 8px);
+    max-height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 4px;
+    padding: 4px;
+    top: 0;
+    left: -9999px;
+}
